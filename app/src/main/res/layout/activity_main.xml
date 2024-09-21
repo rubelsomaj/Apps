@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_margin="10dp"
+
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/disply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="end"
+        android:inputType="none"
+        android:layout_margin="16dp"
+        android:editable="false"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+
+        android:padding="10dp"
+       >
+
+        <Button
+            android:id="@+id/Btn0"
+            android:text="0"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp" />
+        <Button
+            android:id="@+id/Btn1"
+            android:text="1"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btn2"
+            android:text="2"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btn3"
+            android:text="3"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btn4"
+            android:text="4"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btn5"
+            android:text="5"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btn6"
+            android:text="6"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btn7"
+            android:text="7"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btn8"
+            android:text="8"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btn9"
+            android:text="9"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btnadd"
+            android:text="+"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btnsub"
+            android:text="-"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnMul"
+            android:text="*"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnDiv"
+            android:text="/"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnDot"
+            android:text="."
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnMod"
+            android:text="%"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnExp"
+            android:text="^"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btnsqrt"
+            android:text="sqrt"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnparenL"
+            android:text="("
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnparenR"
+            android:text=")"
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnEqual"
+            android:text="="
+            android:layout_marginRight="3dp"
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/BtnClear"
+            android:text="C"
+
+            app:cornerRadius="10dp"/>
+        <Button
+          android:layout_marginRight="3dp"
+            android:id="@+id/BtnUndo"
+            android:text="Undo"
+
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+        <Button
+            android:id="@+id/Btnredo"
+            android:text="Redo"
+
+            android:textSize="20sp"
+            app:cornerRadius="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+
+
+
+
+</LinearLayout>
